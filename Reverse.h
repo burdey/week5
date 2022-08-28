@@ -13,7 +13,7 @@ using namespace std;
 
 class Reverse {
 public:
-    int reverseUtilDigit(int n);
+    int reverseUtilDigit(int value);
     int reverseDigit(int value);
     string reverseStringUtil(string str, int size);
     string reverseString(string letters);
