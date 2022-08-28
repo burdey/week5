@@ -4,8 +4,7 @@
 
 #ifndef WEEK4_REVERSE_H
 #define WEEK4_REVERSE_H
-#include <conio.h>
-#include <sstream>
+#include <string>
 #include <math.h>
 using namespace std;
 
