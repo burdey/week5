@@ -3,13 +3,13 @@
 //
 
 #include "Reverse.h"
-string Reverse::reverseString(string letter){
-    size_t number_characters= letter.size();
+string Reverse::reverseString(string letters){
+    size_t number_characters= letters.size();
     if(number_characters== 1){
-        return letter;
+        return letters;
     }
     else{
-        return letter[number_characters - 1]+reverseString(letter.substr(0, number_characters- 1));
+        return letters[number_characters - 1]+reverseString(letters.substr(0, number_characters- 1));
     }
 }
 
