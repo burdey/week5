@@ -10,7 +10,7 @@ using namespace std;
 
 class Reverse {
 public:
-    string reverseString(string letter);
+    string reverseString(string letters);
     int reverseDigit(int value);
 }
 
