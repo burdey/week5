@@ -28,3 +28,5 @@ int EfficientTruckloads::numTrucks(int numCrates, int loadSize) {
     return TrucksTable.at(numCrates);
 
 }
+
+EfficientTruckloads::~EfficientTruckloads() {}
