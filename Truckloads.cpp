@@ -7,13 +7,13 @@
 using namespace std;
 
 int Truckloads::numTrucks(int numCrates, int loadSize) {
-    if(numCrates<1) {
+    if(numCrates<= 0 || loadSize <=0) {
         return 0;
     }
     if(numCrates<=loadSize && numCrates>0) {
         return 1;
     }
     else {
-        return numTrucks(numCrates,loadSize) + numTrucks(numCrates/2,loadSize);
+        return numTrucks(numCrates/2,loadSize) + numTrucks(numCrates-numCrates/2,loadSize);
     }
 }
