@@ -11,6 +11,7 @@ class EfficientTruckloads {
 public:
     EfficientTruckloads();
     int numTrucks(int numCrates, int loadSize);
+    ~EfficientTruckloads();    
 private:
     std::vector<int> TrucksTable;
 };
